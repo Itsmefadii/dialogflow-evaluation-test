@@ -7,6 +7,11 @@ npm run dev
 3) To expose webhook you need to install ngrok and write command 
 ngrok http 3001
 
+4) Make sure you create a config folder and inside that folder insert your json file, you can get that json file in 
+google project. Under your google project there is a section of APIs and Services, in APIs and Services there is 
+credentials section go in credentials section and create your credentials download it and name it as 
+dialog-flow-service-account and paste it in config folder.
+
 OVERVIEW OF THE PROJECT:
 Let me explain the folder structure.
 The config contains all the secrets and credentials to communicate with the dialog flow
