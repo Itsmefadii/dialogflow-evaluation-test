@@ -1,0 +1,22 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top, #4d6fff 0%, #0a1a3b 45%, #030710 100%);
+  color: #f4f7ff;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.App * {
+  box-sizing: border-box;
+}
+
+@keyframes App-glow {
+  0%, 100% {
+    box-shadow: 0 0 28px rgba(77, 111, 255, 0.18);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(77, 111, 255, 0.26);
+  }
+}
