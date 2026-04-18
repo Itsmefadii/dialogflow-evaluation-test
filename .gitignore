@@ -1,0 +1,5 @@
+# dependencies
+node_modules/
+
+# dialogflow service account key
+**/config/dialog-flow-service-account.json
